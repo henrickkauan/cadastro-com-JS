@@ -1,0 +1,45 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        form {
+            width: 500px;
+        }
+        form h1 {
+            text-align: center;
+        }
+        form .caixa input, button {
+            padding: 20px;
+            margin: 15px 0px;
+            width: 100%;
+        }
+    </style>
+    </head>
+    <body>
+        <form action="" method="POST" onsubmit="validartudo()">
+            <h1>área de cadastro</h1>
+            <div class="caixa">
+                <input type="text" name="txtusuario" id="txtusuario" placeholder="usuario">
+            </div>
+            <div class="caixa">
+                <input type="password" name="txtsenha" id="txtsenha" placeholder="senha">
+            </div>
+            <div class="caixa">
+                <input type="password" name="txtconfirmarsenha" id="txtconfirmarsenha" placeholder="confirmar senha">
+            </div>
+            <div class="caixa">
+                <button type="button" onclick="validartudo()">cadastrar-se</button>
+            </div>
+        </form>
+    
+    <script src="script.js"></script>
+    
+    </body>
+</html>
